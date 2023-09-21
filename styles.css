@@ -1,0 +1,218 @@
+/* Reset some default styles */
+
+body, h2 {
+    margin: 0;
+    padding: 0;
+    background-color:#fff;
+    font-family: 'Playfair Display';
+}
+body{
+  font-family:'Lucida Sans';
+  font-size: 20px;
+}
+h2{
+  font-family: 'Yeseva one';
+}
+/* Apply a background color and style the header */
+header {
+    background-color: #272829;
+    color: #fff;
+    width:auto;
+    text-align: center;
+    font-family: 'Playfair Display';
+    padding: 1rem;
+}
+#About{
+  margin-top: 1em;
+}
+#favi{
+    height: 180px;
+    width: 300px;
+    padding-top: 20px;
+    filter: invert();
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #61677A;
+    font-family: 'Playfair Display';
+    border-radius:10px;
+    position:absolute;
+    height:100%;
+    overflow:auto;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    background-color: #D8D9DA;
+    color: #61677A;
+  }
+
+ summary{
+    background-color: #fff;
+    width: 83%;
+    margin: 10px;
+    padding: 15px;
+    height: 90px;
+    border: 1px solid rgb(14, 13, 13);
+    text-align: justify;
+    border-radius: 10px;
+    overflow:auto;
+  }
+  
+table, tr, td, th{
+    /* margin: 10px;
+    padding: 20px; */
+    border-style:hidden;
+    border-radius: 10px;
+    border-color: #fff;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+tr,td,th{
+  margin: 0px;
+  padding: 0px; 
+}
+.certificateimg{
+  width: 250px;
+  height: auto;
+  transition : transform 0.5s
+}
+.certificateimg:hover {
+  transform: scale(1.5);
+}
+
+.Northeastern:hover {
+  transition: transform .5s ease-in-out;
+  transform: rotateY(360deg)
+}
+.SRMAP:hover {
+  transition: transform .5s ease-in-out;
+  transform: rotateY(360deg)
+}
+html {
+  scroll-behavior: smooth;
+}
+  
+  /* On screens that are less than 2000px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 2000px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+  }
+  
+  /* On screens that are less than 700px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 750px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+  /* Create two equal columns that floats next to each other */
+.column {
+  width: auto;
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  text-align: center;
+  align-content: center;
+
+}
+.row{
+  width: 100%;
+  text-align: center;
+
+}
+
+.Northeastern{
+  height: 200px;
+  width: 200px;
+  padding: 1rem;
+}
+.SRMAP{
+  width: 25%;
+  padding: 1rem;
+
+}
+.skills{
+  height: 400px;
+  width: 600px;
+  border-radius: 10px;
+  margin-top: 1em;
+}
+
+/* Style the main sections */
+.Cognizant{
+  width: 10%;
+    
+}
+
+h2{
+  padding: 10px;
+}
+/* Style the portfolio table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+  
+}
+
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Style the contact form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+ section{
+  text-align: center;
+  margin: 2em;
+ }
+
+
+.msg{
+  width: 300px; 
+  height: 240px;
+  border-color: #fff;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+
+}
+audio{
+  border-radius: 10px;
+  border-color: #fff;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+footer{ 
+  background-color: #272829;
+  color: rgb(255, 255, 255);  
+  text-align: center;
+}
